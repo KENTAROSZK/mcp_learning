@@ -1,6 +1,6 @@
 from mcp.server.fastmcp import FastMCP
 
-mcp = FastMCP("mini-server")
+mcp = FastMCP("simple_mcp")
 
 
 @mcp.tool()
