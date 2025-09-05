@@ -1,0 +1,14 @@
+{
+  "servers": {
+    "rag-mcp-server": {
+      "type": "stdio",
+      "command": "uv",
+      "args": [
+        "run",
+        "python",
+        "./mcp_rag/index_and_search.py"
+      ]
+    }
+  },
+  "inputs": []
+}
